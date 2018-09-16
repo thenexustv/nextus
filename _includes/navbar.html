@@ -1,10 +1,10 @@
 {% assign url = page.url|remove:'.html' %}
 <nav id="site-navbar" class="container">
     <ul>
-        <li class="brand"><a href="/">The Nexus</a></li>
-        <li {% if url == '/about' %}class="active"{% endif %}><a href="/about">About</a></li>
-        <li {% if url == '/todos' %}class="active"{% endif %}><a href="/todos">Todos</a></li>
-        <li {% if url == '/shows' %}class="active"{% endif %}><a href="/shows">Shows</a></li>
-        <li {% if url == '/people' %}class="active"{% endif %}><a href="/people">People</a></li>
+        <li class="brand"><a href="{{site.baseurl}}/">The Nexus</a></li>
+        <li {% if url == '/about' %}class="active"{% endif %}><a href="{{site.baseurl}}/about">About</a></li>
+        <li {% if url == '/todos' %}class="active"{% endif %}><a href="{{site.baseurl}}/todos">Todos</a></li>
+        <li {% if url == '/shows' %}class="active"{% endif %}><a href="{{site.baseurl}}/shows">Shows</a></li>
+        <li {% if url == '/people' %}class="active"{% endif %}><a href="{{site.baseurl}}/people">People</a></li>
     </ul>
 </nav>
