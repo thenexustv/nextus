@@ -1,0 +1,40 @@
+@import 'variables';
+
+nav#site-navbar {
+  background-color: $dark-background;
+
+  ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+    height: $navbar-height;
+    line-height: $navbar-height;
+    font-size: 1.2em;
+  }
+
+  li.brand {
+    font-size: 1.4em;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 0 $padding;
+    color: $text-white;
+    display: block;
+    transition: .3s background-color;
+  }
+
+  li:hover > a {
+    background-color: darken($dark-background, 6.25%);
+  }
+
+  li.active > a {
+    background-color: $text-white;
+    color: $dark-background;
+  }
+}

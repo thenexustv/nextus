@@ -1,0 +1,13 @@
+@import 'variables';
+
+html, body {
+  margin: 0;
+}
+
+.container {
+  padding: 0 $padding;
+}
+
+.break-container {
+  margin: 0 -$padding;
+}

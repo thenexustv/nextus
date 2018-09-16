@@ -1,0 +1,10 @@
+@import 'variables';
+
+footer#site-footer {
+  background-color: $dark-background;
+  color: $text-light;
+
+  .copywrite {
+    text-align: center;
+  }
+}
