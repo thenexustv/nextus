@@ -5,21 +5,35 @@ layout: default
 <h1 class="text-3xl font-bold px-4 py-4 text-center">Shows</h1>
 
 <p class="text-xl font-medium py-4 px-4 text-center">
-    The Nexus podcasts discuss a variety of topics including consumer technology news, developer news, gaming news and occasionally scientific news. We love talking, learning and exploring the future.
+  The Nexus podcasts discuss a variety of topics including consumer technology
+  news, developer news, gaming news and occasionally scientific news. We love
+  talking, learning and exploring the future.
 </p>
 
 <div class="px-2">
-    {% for serie in site.data.series %}
-        <div class="flex py-12 auto-border-top">
-            <div class="w-1/3 sm:w-1/4">
-                <img class="w-auto h-auto pr-2 sm:pr-8" src="https://via.placeholder.com/400?text={{ serie.name }}" alt="{{ serie.name }} cover art">
-            </div>
-            <div class="w-2/3 sm:w-3/4">
-                <h2 class="text-xl font-bold">{{ serie.name }}</h2>
-                <p class="uppercase text-sm text-gray-600 mb-2">Hosted by <span class="font-medium text-gray-900 tracking-wide">Brian Mitchell</span> and <span class="font-medium text-gray-900 tracking-wide">Brandon Mitchell</span></p>
-                <p class="text-base leading-relaxed">{{ serie.description }}</p>
-            </div>
-            
-        </div>
-    {% endfor %}
+  {% for serie in site.data.series %}
+  <div class="flex py-12 auto-border-top">
+    <div class="w-1/3 sm:w-1/4">
+      <img
+        class="w-auto h-auto pr-2 sm:pr-8"
+        src="https://via.placeholder.com/400?text={{ serie.name }}"
+        alt="{{ serie.name }} cover art"
+      />
+    </div>
+    <div class="w-2/3 sm:w-3/4">
+      <h2 class="text-xl font-bold">{{ serie.name }}</h2>
+      <p class="uppercase text-sm text-gray-600 mb-2">
+        Hosted by
+        <span class="font-medium text-gray-900 tracking-wide"
+          >Brian Mitchell</span
+        >
+        and
+        <span class="font-medium text-gray-900 tracking-wide"
+          >Brandon Mitchell</span
+        >
+      </p>
+      <p class="text-base leading-relaxed">{{ serie.description }}</p>
+    </div>
+  </div>
+  {% endfor %}
 </div>
