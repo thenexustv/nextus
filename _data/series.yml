@@ -1,0 +1,65 @@
+- 
+  id: 1
+  name: "Uncategorized"
+  slug: "uncategorized"
+  description: ""
+- 
+  id: 2
+  name: "At The Nexus"
+  slug: "atn"
+  description: "At The Nexus is the premiere weekly podcast of The Nexus featuring Ryan Rampersad and Matthew Petschl with discussion on Apple, Google, Microsoft, lawsuits, software, hardware, trends and technology news."
+- 
+  id: 3
+  name: "The Universe"
+  slug: "tu"
+  description: "Science, the final frontier, with astrophysics, neuroscience, computer science, mathematics and more speculation than on morning television, with fledgling computer scientist host Sam Ebertz and Ryan Rampersad."
+- 
+  id: 4
+  name: "Nexus Special"
+  slug: "ns"
+  description: "The Nexus Specials are for awesomely spectacular occasions and breaking news coverage."
+- 
+  id: 5
+  name: "The Fringe"
+  slug: "tf"
+  description: "The Fringe is a collection of before and after show ramblings and actually intentional musings that are unstructured."
+- 
+  id: 6
+  name: "Eight Bit"
+  slug: "eb"
+  description: "Eight Bit is a show about gaming news, gaming hardware, gaming reviews, and pretty much anything that starts with gaming, hosted by Ian Buck and Ian Decker."
+- 
+  id: 7
+  name: "Control Structure"
+  slug: "cs"
+  description: "Control Structure is a podcast about computer science, IT news, stories, opinions, tips, and tricks for programmers, testers, administrators of all types and more, for fun or for profit hosted by Andrew Bailey. And also some other things, just because they are cool."
+- 
+  id: 8
+  name: "Sci Snap"
+  slug: "ss"
+  description: "Sci Snap recaps this week in science news and points out celestial happenings in the night time sky with host Matthew Petschl."
+- 
+  id: 9
+  name: "The Extra Dimension"
+  slug: "ted"
+  description: "The Extra Dimension features deep discussions on how technology intersects with other parts of our lives. Welcome to the heart of the technological convergence."
+- 
+  id: 10
+  name: "PodKit"
+  slug: "pk"
+  description: "PodKit is a show about Apple inclined Web Developers discussing web development and technology in general, with hosts Brian Mitchell, Brandon Johnson, and Ryan Rampersad."
+- 
+  id: 11
+  name: "Second Opinion"
+  slug: "so"
+  description: "Second Opinion is a reviews show about anything and everything under the sun. If we can experience it, we can review it."
+- 
+  id: 12
+  name: "Robots Will Steal Your Job"
+  slug: "rsj"
+  description: "Robots Will Steal Your Job, But That's OK is an audiobook that explores the impact of technological advances on our lives, what it means to be happy, and provides suggestions on how to avoid a systemic collapse. Written by Federico Pistono and read by Ian R Buck."
+- 
+  id: 13
+  name: "In Bootcamp"
+  slug: "ib"
+  description: "In Bootcamp podcast is about Matthew Petschl's experience at a local coding bootcamp and journey to software engineer, featuring Ryan Rampersad with industry commentary."

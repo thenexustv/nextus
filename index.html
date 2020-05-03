@@ -2,4 +2,6 @@
 layout: default
 ---
 
-Feed of all episodes here. Maybe include pagination or link to archive page for all episodes?
+{% for serie in site.data.series %}
+<h2>{{ serie.name }}</h2>
+{% endfor %}

@@ -24,6 +24,3 @@ exclude:
 - CNAME
 - LICENSE
 - vendor
-
-sass:
-  style: compressed
