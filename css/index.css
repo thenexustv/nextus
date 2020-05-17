@@ -1,0 +1,99 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+.font-league-gothic {
+  font-family: "League Gothic", system-ui, sans-serif;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.auto-border-top + .auto-border-top {
+  border-top: 0.5rem solid;
+  border-image-source: linear-gradient(
+    to right,
+    rgb(236, 54, 52) 0 12.5%,
+    rgb(44, 174, 228) 12.5% 25%,
+    rgb(236, 54, 52) 25% 37.5%,
+    rgb(44, 174, 228) 37.5% 50%,
+    rgb(236, 54, 52) 50% 62.5%,
+    rgb(44, 174, 228) 62.5% 75%,
+    rgb(236, 54, 52) 75% 87.5%,
+    rgb(44, 174, 228) 87.5% 100%
+  );
+  border-image-slice: 1;
+  border-image-width: 1;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+}
+
+.content p,
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  @apply mb-4;
+}
+.content h1 {
+  @apply text-2xl;
+}
+.content h2 {
+  @apply text-xl;
+}
+.content h3 {
+  @apply text-lg;
+}
+.content h4 {
+  @apply text-base;
+}
+.content h5 {
+  @apply text-sm;
+}
+.content h6 {
+  @apply text-xs;
+}
+.content ul {
+  @apply px-4 mb-4 list-disc;
+}
+.content dl {
+  @apply px-4 mb-4;
+}
+.content dl dt {
+  @apply font-bold;
+}
+.content dl dd {
+  @apply ml-4;
+}
+.content a {
+  @apply text-blue-600;
+}
+.content a:hover {
+  @apply text-blue-600 underline;
+}
+
+.nx-spin {
+  animation: 7s infinite alternate spin;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.list-square {
+  list-style-type: square;
+}
+
+.column-count-2 {
+  column-count: 2;
+}
